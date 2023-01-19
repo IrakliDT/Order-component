@@ -1,0 +1,175 @@
+body {
+  font-family: 'Red Hat Display';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #e4e9f7;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.order_bg {
+  position: absolute;
+  top: 0;
+}
+
+.order_bg-img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: absolute;
+  width: 450px;
+  height: 697px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.order-title {
+  padding-left: 48px;
+  width: 354px;
+}
+
+.order_title-summary {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1F2E55;
+}
+
+.order_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717FA6;
+}
+
+.Plan_box {
+  margin: 20px 48px;
+  width: 355px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+
+  background: #F7F9FF;
+  border-radius: 11px;
+}
+
+.plan_box-img {
+  padding: 25px 20px 24px;
+  opacity: 0.5;
+}
+
+
+.plan_box-img:hover .plan_box-img {
+  background: rgba(223, 230, 251);
+  opacity: 1;
+}
+
+.plan_box-img:hover .plan_box-img svg {
+  fill: #717FA6;
+}
+
+.plan_box-title {
+  padding-bottom: 6px;
+  margin: 0;
+  height: 21px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F2E55;
+}
+
+.plan_box-texts {
+  display: flex;
+  position: absolute;
+
+}
+
+.plan_box-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717FA6;
+
+}
+
+.plan_box-links {
+  margin-left: 100px;
+}
+
+
+.plan_box-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382AE1;
+
+  transition: all .3s;
+}
+
+.plan_box-link:hover{
+  color: #766CF1;
+  text-decoration: none;
+}
+
+.payment_button {
+  margin: 32px 48px 0;
+  width: 354px;
+  height: 50px;
+
+  background: #382AE1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+
+  transition: all .4s;
+}
+
+.payment_button:hover{
+  background: #766CF1;
+}
+
+.payment_button-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+
+}
+
+.cancel_button {
+  margin-top: 15px;
+}
+
+.cancel_button-text {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717FA6;
+  text-decoration: none;
+
+  transition: all .5s;
+}
+
+.cancel_button-text:hover{
+  transform: translateY(10%);
+  color: #1F2E55;
+}
